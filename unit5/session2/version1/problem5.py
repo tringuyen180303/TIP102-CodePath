@@ -27,9 +27,7 @@ def remove_nth_from_end(head, n):
     slow.next = slow.next.next
     
     return dummy.next
-head1 = Node("apple", Node("cherry", Node("orange", Node("peach", Node("pear")))))
-head2 = Node("Rainbow Trout", Node("Ray"))
-head3 = Node("Rainbow Stag")
+
 
 
 head1 = Node("apple", Node("cherry", Node("orange", Node("peach", Node("pear")))))
